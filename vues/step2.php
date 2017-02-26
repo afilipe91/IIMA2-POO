@@ -47,10 +47,6 @@ switch ($type){
         }
         break;
 }
-    $monstres = rand(5,9);
-    $salle = new Salle(rand(1,3), $monstres, rand(0,1));
-    $salle->creerMonstres($monstres);
-    $salle->creerCaisses(rand(1,2));
 
 ?>
 
@@ -64,7 +60,7 @@ switch ($type){
     <title>Etape 2</title>
 </head>
 <body>
-
+<br><a href="step3.php">Entrez dans une salle</a>
 <hr>
     <a href="destroy.php">STOP SESSION</a>
 </body>
